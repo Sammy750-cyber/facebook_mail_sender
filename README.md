@@ -29,7 +29,7 @@
 
 
     PHISHING_URL = http://localhost/path-to-your-site
-
+    ```
 - After proper configuration, run the program
     ```bash
     node app.js
