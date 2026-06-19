@@ -14,6 +14,8 @@
     git clone https://github.com/Sammy750-cyber/facebook_mail_sender
 
     cd facebook_mail_sender
+
+    cp .env.example .env
     ```
 
 - Install dependencies
